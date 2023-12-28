@@ -14,7 +14,7 @@ const PreviousExpenseFile = () => {
         headers: { Authorization: localStorage.getItem("token") },
       })
       .then((res) => {
-        console.log(res.data.previousfiles); //we have to create a seperate download btn for premium user for downloading this file
+         //we have to create a seperate download btn for premium user for downloading this file
         const newArray = res.data.previousfiles.map((current) => {
           const StringifiedDate = new Date(current.createdAt);
         
@@ -28,7 +28,7 @@ const PreviousExpenseFile = () => {
           });
           
           return (
-            <div key={(current.id)}
+            <div key={(current._id)}
               style={{
                 display: "flex",
                 alignItems: "center",
