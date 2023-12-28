@@ -111,7 +111,7 @@ const PreviousExpenseFile = () => {
     <div style={{ margin: "5px" }}>
       <div style={{background:"orange",height:"50px",display:"flex",justifyContent:"space-between",alignItems:"center",color:"white",margin:"0px 5px"}}>
         <div style={{width:"70px",textAlign:"center"}}>requested on</div>
-        <div style={{width:"70px",textAlign:"center"}}>download link</div>
+        <div style={{width:"70px",textAlign:"center",margin:"0px 5px"}}>download link</div>
         <div style={{width:"70px",textAlign:"center"}}>expenses date</div>
       </div>
       
